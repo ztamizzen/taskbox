@@ -1217,3 +1217,20 @@ a:focus {
     vertical-align: top;
     max-width: 100%;
 }
+
+.btn {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+    transition: filter 300ms ease-out;
+}
+
+.btn-default {
+    background-color: #1c3f53;
+    border-color: white;
+    color: white;
+}
+
+.btn-default:hover {
+    filter: drop-shadow(0 6px 2px #1c3f5370);
+}
